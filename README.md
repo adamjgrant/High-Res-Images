@@ -11,3 +11,5 @@ Automatically load 2x images in half the space (for retina screens)
 ## Example
 
     <img data-hdimg="foo.png" />
+
+Also see index.html in this project for a demo.
