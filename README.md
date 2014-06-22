@@ -12,4 +12,4 @@ Automatically load 2x images in half the space (for retina screens)
 
     <img data-hdimg="foo.png" />
 
-Also see [http://ajkochanowicz.github.io/High-Res-Images/](index.html) in this project for a demo.
+Also see [index.html](http://ajkochanowicz.github.io/High-Res-Images/) in this project for a demo.
