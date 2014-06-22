@@ -1,16 +1,1 @@
-document.addEventListener('DOMContentLoaded', function() {
-  HDimgs = document.querySelectorAll('[data-hdimg]');
-  _results = [];
-  for (_i = 0, _len = HDimgs.length; _i < _len; _i++) {
-    img = HDimgs[_i];
-    _results.push((image = new Image(), image.onload = function() {
-      console.info('Image loaded');
-      img.src = image.src;
-      img.removeAttribute('data-hdimg');
-      return img.width = image.width / 2;
-    }, image.onerror = function() {
-      return console.error('Could not load image');
-    }, image.src = img.dataset.hdimg));
-  }
-  return _results;
-});
+(function(){document.addEventListener("DOMContentLoaded",function(){var e,t,n,o,r,d;for(e=document.querySelectorAll("[data-hdimg]"),d=[],o=0,r=e.length;r>o;o++)n=e[o],d.push((t=new Image,t.onload=function(){return console.info("Image loaded"),n.src=t.src,n.style.width=""+t.width/2+"px",n.removeAttribute("data-hdimg")},t.onerror=function(){return console.error("Could not load image")},t.src=n.dataset.hdimg));return d})}).call(this);
