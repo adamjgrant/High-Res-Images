@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     _results.push((image = new Image(), image.onload = function() {
       console.info('Image loaded');
       img.src = image.src;
+      img.dataset.hdimg = '';
       return img.width = image.width / 2;
     }, image.onerror = function() {
       return console.error('Could not load image');
