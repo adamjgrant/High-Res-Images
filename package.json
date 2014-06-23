@@ -1,0 +1,28 @@
+{
+  "name": "High-Res-Images",
+  "version": "2.0.0",
+  "description": "Polyfill for the srcset attribute",
+  "main": "hdimg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajkochanowicz/High-Res-Images.git"
+  },
+  "keywords": [
+    "retina",
+    "high-res",
+    "hd",
+    "srcset"
+  ],
+  "author": "Adam Kochanowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajkochanowicz/High-Res-Images/issues"
+  },
+  "homepage": "https://github.com/ajkochanowicz/High-Res-Images",
+  "devDependencies": {
+    "coffee-script": "~1.7"
+  }
+}
