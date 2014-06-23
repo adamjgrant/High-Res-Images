@@ -9,5 +9,5 @@ document.addEventListener 'DOMContentLoaded', ->
       img.removeAttribute 'srcset'
     image.onerror = ->
       console.error 'Could not load image'
-    image.src = img.srcset
+    image.src = img.srcset.split(' ')[0]
   ) for img in HDimgs

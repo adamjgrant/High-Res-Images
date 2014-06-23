@@ -2,7 +2,7 @@
 (function() {
   document.addEventListener('DOMContentLoaded', function() {
     var HDimgs, image, img, _i, _len, _results;
-    HDimgs = document.querySelectorAll('[data-hdimg]');
+    HDimgs = document.querySelectorAll('[srcset]');
     _results = [];
     for (_i = 0, _len = HDimgs.length; _i < _len; _i++) {
       img = HDimgs[_i];
@@ -10,10 +10,10 @@
         console.info('Image loaded');
         img.src = image.src;
         img.style.width = "" + (image.width / 2) + "px";
-        return img.removeAttribute('data-hdimg');
+        return img.removeAttribute('srcset');
       }, image.onerror = function() {
         return console.error('Could not load image');
-      }, image.src = img.dataset.hdimg));
+      }, image.src = img.srcset.split(' ')[0]));
     }
     return _results;
   });
