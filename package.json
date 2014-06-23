@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ajkochanowicz/High-Res-Images",
   "devDependencies": {
-    "coffee-script": "~1.7"
+    "coffee-script": "~1.7",
+    "jade": "~1.3"
   }
 }
