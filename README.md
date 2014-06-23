@@ -5,6 +5,7 @@ Automatically load 2x images in half the space (for retina screens)
 
 # Quickstart
 
+- [Download a release](https://github.com/ajkochanowicz/High-Res-Images/releases/tag/1.0).
 - Load hdimg.js anywhere in your HTML.
 - Change "src" to "data-hdimg" in any of your image tags that load the @2x image.
 
