@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ajkochanowicz/High-Res-Images",
   "devDependencies": {
     "coffee-script": "~1.7",
+    "gulp": "^3.8.1",
     "jade": "~1.3"
   }
 }
