@@ -2,5 +2,18 @@ doctype
 html
   head
   body
-    h1 Hello world
+    header
+      h1 srcset polyfill demo
+
+    main
+      h2 With srcset
+      img(src="mountains.jpg" srcset="mountains@2x.jpg 2x")
+      code &lt;img src=&quot;mountains.jpg&quot; srcset=&quot;mountains@2x.jpg 2x&quot; /&gt;
+
+      h2 Without srcset
+      img(src="mountains.jpg" srcset="mountains@2x.jpg 2x")
+      code &lt;img src=&quot;mountains.jpg&quot; /&gt;
+    
+    footer
+      
 
